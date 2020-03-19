@@ -5,7 +5,7 @@
     <img alt="License: MIT" src="https://img.shields.io/badge/License-MIT-yellow.svg" />
   </a>
   <a href="https://twitter.com/Damien\_Monni" target="_blank">
-    <img alt="Twitter: Damien\_Monni" src="https://img.shields.io/twitter/follow/Damien\_Monni.svg?style=social" />
+    <img alt="Twitter: Damien_Monni" src="https://img.shields.io/twitter/follow/Damien_Monni.svg?style=social" />
   </a>
 </p>
 
