@@ -1,0 +1,17 @@
+{
+  "name": "shortid-gen",
+  "version": "1.0.0",
+  "author": "Damien Monni",
+  "license": "MIT",
+  "private": true,
+  "scripts": {
+    "build": "webpack"
+  },
+  "dependencies": {
+    "shortid": "^2.2.15"
+  },
+  "devDependencies": {
+    "webpack": "^4.42.0",
+    "webpack-cli": "^3.3.11"
+  }
+}

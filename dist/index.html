@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link rel="stylesheet" href="normalize.css" />
+    <link rel="stylesheet" href="styles.css" />
+
+    <title>Short ID generator</title>
+    <meta
+      name="description"
+      content="Amazingly short non-sequential url-friendly unique id generator"
+    />
+  </head>
+  <body>
+    <main>
+      <h1>ShortId generator</h1>
+      <p>Amazingly short non-sequential url-friendly unique id generator</p>
+
+      <p id="powered">
+        Powered by
+        <a href="https://github.com/dylang/shortid"
+          >@dylang shortid javascript package</a
+        >
+      </p>
+
+      <form>
+        <div><input id="generated-input" type="text" readonly autofocus /></div>
+
+        <div><button id="generate-button" type="submit">Generate</button></div>
+      </form>
+    </main>
+
+    <footer>
+      <p>Developped by Damien Monni</p>
+      <p>contact@damien-monni.com</p>
+    </footer>
+
+    <script src="main.js"></script>
+  </body>
+</html>

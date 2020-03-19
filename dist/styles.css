@@ -1,0 +1,113 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap');
+
+:root {
+  --primary: #49beb7;
+  --text: #085f63;
+  --action: #facf5a;
+  --action-variant: #ff5959;
+}
+
+html {
+  height: 100%;
+}
+
+html,
+body {
+  font-size: 16px;
+  font-family: 'Open Sans', sans-serif;
+  display: flex;
+  flex: 1;
+  color: var(--text);
+  fill: var(--text);
+  flex-direction: column;
+  background-color: var(--primary);
+}
+
+p,
+h1 {
+  margin: 0;
+  padding: 0;
+}
+
+p {
+  line-height: 1.4rem;
+}
+
+h1 {
+  font-size: 2.5rem;
+  font-weight: bold;
+  text-transform: uppercase;
+  margin-bottom: 32px;
+}
+
+a {
+  color: var(--text);
+}
+
+input,
+button {
+  font-size: 14px;
+  font-family: 'Open Sans', sans-serif;
+}
+
+button {
+  outline: 0;
+  background-color: #000000aa;
+  border: 0;
+  padding: 8px 16px;
+  border-radius: 4px;
+  color: #ffffffaa;
+  cursor: pointer;
+  border: 2px solid #000000aa;
+}
+
+button:focus {
+  border: 2px solid var(--action);
+}
+
+main {
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+footer {
+  text-align: center;
+  padding: 32px 0;
+  font-size: 0.8rem;
+}
+
+form {
+  margin-top: 32px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+form button {
+  margin-top: 16px;
+}
+
+input {
+  border: 2px solid var(--action);
+  outline: 0;
+  background-color: var(--action);
+  border-radius: 4px;
+  padding: 16px;
+  line-height: 1rem;
+  font-size: 1.3rem;
+  color: var(--text);
+}
+
+input:focus {
+  border: 2px solid var(--text);
+}
+
+#powered {
+  margin-top: 8px;
+  font-size: 0.9rem;
+  opacity: 0.8;
+  font-style: italic;
+}
