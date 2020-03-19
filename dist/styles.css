@@ -71,6 +71,7 @@ main {
   flex-direction: column;
   align-items: center;
   justify-content: center;
+  text-align: center;
 }
 
 footer {
@@ -99,6 +100,9 @@ input {
   line-height: 1rem;
   font-size: 1.3rem;
   color: var(--text);
+  width: 200px;
+  text-align: center;
+  max-width: 100%;
 }
 
 input:focus {
