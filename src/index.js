@@ -11,5 +11,6 @@ const onGenerate = (event) => {
 
 const generateButtonEl = document.getElementById('generate-button');
 generateButtonEl.addEventListener('click', onGenerate);
+document.addEventListener('keydown', onGenerate);
 
 onGenerate();
