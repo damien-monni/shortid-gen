@@ -65,6 +65,15 @@ button:focus {
   border: 2px solid var(--action);
 }
 
+header {
+  display: flex;
+  padding: 16px;
+}
+
+header #theme-change {
+  margin-left: auto;
+}
+
 main {
   display: flex;
   flex: 1;
