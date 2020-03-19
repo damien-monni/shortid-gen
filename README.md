@@ -11,14 +11,18 @@
 
 > Amazingly short non-sequential url-friendly unique id generator powered by @dylang shortid javascript package
 
-### 🏠 [Homepage](https://shortid.netlify.com)
-
-### ✨ [Demo](https://shortid.netlify.com)
+### ✨ [Demo - https://shortid.netlify.com](https://shortid.netlify.com)
 
 ## Install
 
 ```sh
 npm install
+```
+
+## Build
+
+```sh
+npm npm run build
 ```
 
 ## Author
