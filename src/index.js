@@ -22,9 +22,15 @@ const handleCopy = (event) => {
 
   if (copied) {
     const snackbar = document.querySelector('#home-page #copy-container');
-    snackbar.classList.add('visible-snackbar');
+
     if (snackbarTimeoutId) {
       window.clearTimeout(snackbarTimeoutId);
+      snackbar.classList.remove('visible-snackbar');
+      setTimeout(() => {
+        snackbar.classList.add('visible-snackbar');
+      }, 300);
+    } else {
+      snackbar.classList.add('visible-snackbar');
     }
     snackbarTimeoutId = window.setTimeout(() => {
       snackbar.classList.remove('visible-snackbar');
