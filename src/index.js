@@ -7,6 +7,7 @@ import './styles.css';
 const inputEl = document.getElementById('generated-input');
 
 // ID copy to clipboard
+let snackbarTimeoutId = null;
 const handleCopy = (event) => {
   event && event.preventDefault();
 
@@ -26,7 +27,10 @@ const handleCopy = (event) => {
   if (copied) {
     const snackbar = document.querySelector('#home-page #copy-container');
     snackbar.classList.add('visible-snackbar');
-    window.setTimeout(() => {
+    if (snackbarTimeoutId) {
+      window.clearTimeout(snackbarTimeoutId);
+    }
+    snackbarTimeoutId = window.setTimeout(() => {
       snackbar.classList.remove('visible-snackbar');
     }, 3000);
   }
