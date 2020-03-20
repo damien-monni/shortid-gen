@@ -1,9 +1,5 @@
 import shortid from 'shortid';
 
-// Styles
-import './normalize.css';
-import './styles.css';
-
 const inputEl = document.getElementById('generated-input');
 
 // ID copy to clipboard
