@@ -1,5 +1,10 @@
 import shortid from 'shortid';
 
+// Styles
+import './normalize.css';
+import './styles.css';
+
+// ID generation
 const inputEl = document.getElementById('generated-input');
 
 const onGenerate = (event) => {

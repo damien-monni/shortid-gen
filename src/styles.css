@@ -65,32 +65,6 @@ button:focus {
   border: 2px solid var(--action);
 }
 
-main {
-  display: flex;
-  flex: 1;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  text-align: center;
-}
-
-footer {
-  text-align: center;
-  padding: 32px 0;
-  font-size: 0.8rem;
-}
-
-form {
-  margin-top: 32px;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-}
-
-form button {
-  margin-top: 16px;
-}
-
 input {
   border: 2px solid var(--action);
   outline: 0;
@@ -109,7 +83,35 @@ input:focus {
   border: 2px solid var(--text);
 }
 
-#powered {
+footer {
+  text-align: center;
+  padding: 32px 0;
+  font-size: 0.8rem;
+}
+
+/* HOME PAGE */
+
+#home-page {
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+#home-page form {
+  margin-top: 32px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+#home-page form button {
+  margin-top: 16px;
+}
+
+#home-page #powered {
   margin-top: 8px;
   font-size: 0.9rem;
   opacity: 0.8;
