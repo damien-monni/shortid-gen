@@ -1,10 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap');
 
 :root {
-  --primary: #49beb7;
-  --text: #085f63;
-  --action: #facf5a;
-  --action-variant: #ff5959;
+  --primary: #060b29;
+  --text: #7681c7;
+  --action: #e27f00;
+  --action-text: #fff;
 }
 
 html {
@@ -52,13 +52,13 @@ button {
 
 button {
   outline: 0;
-  background-color: #000000aa;
+  background-color: var(--text);
   border: 0;
   padding: 8px 16px;
   border-radius: 4px;
-  color: #ffffffaa;
+  color: var(--primary);
   cursor: pointer;
-  border: 2px solid #000000aa;
+  border: 2px solid var(--text);
 }
 
 button:focus {
@@ -73,14 +73,11 @@ input {
   padding: 16px;
   line-height: 1rem;
   font-size: 1.3rem;
-  color: var(--text);
+  color: var(--action-text);
   width: 200px;
   text-align: center;
   max-width: 100%;
-}
-
-input:focus {
-  border: 2px solid var(--text);
+  box-shadow: 0 0 30px #e27f0073;
 }
 
 footer {
@@ -108,7 +105,7 @@ footer {
 }
 
 #home-page form button {
-  margin-top: 16px;
+  margin-top: 32px;
 }
 
 #home-page #powered {
